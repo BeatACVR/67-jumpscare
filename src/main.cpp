@@ -1,4 +1,3 @@
-#include <Geode/Geode.hpp>
 #include <Geode/modify/PlayerObject.hpp>
 
 using namespace geode::prelude;
@@ -48,7 +47,7 @@ class $modify(PlayerObject) {
       return ret;
 
     isHolding = false;
-    return false;
+    return ret;
   }
 
   void incrementJumps() {
@@ -102,6 +101,6 @@ class $modify(PlayerObject) {
     }
 
     this->jumpscare();
-    return false;
+    return ret;
   }
 };
