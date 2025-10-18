@@ -1,5 +1,5 @@
 {
-	"geode": "4.0.1",
+	"geode": "4.9.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -9,12 +9,12 @@
 	"tags": [
 		"joke"
 	],
-	"id": "n.robtop-jumpscare",
-	"name": "Robtop Jumpscare",
-	"version": "v1.3.8",
+	"id": "n.67-jumpscare",
+	"name": "67 Jumpscare",
+	"version": "v1.6.7",
 	"developer": "n",
-	"description": "Jumpscare yourself everytime you jump!",
-	"repository": "https://github.com/NicknameGG/robtop-jumpscare",
+	"description": "67 yourself everytime you jump!",
+	"repository": "https://github.com/BeatACVR/67-jumpscare",
 	"resources": {
 		"files": [
 			"resources/*.mp3",
