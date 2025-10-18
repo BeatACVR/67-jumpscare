@@ -1,14 +1,16 @@
-# Robtop Jumpscare
+# 67 Jumpscare
 
-Get jumpscared **every time you jump** by the Robert Topala!
+Get jumpscared **every time you jump** by the 67!
 
-![robert](resources/RobertTopala.png)
+![67](resources/RobertTopala.png)
 
 ## Features:
-- Robtop might now appear with a 1% chance while youre playing! Check the mod settings to activate it
+- 67 might now appear with a 1% chance while youre playing! Check the mod settings to activate it
 
-- Scary!
+- 67!
 - Android support!
 - Works in my machine!
 
 ### Download now!!!!!!!!!!
+
+mod made by nicknamegg
