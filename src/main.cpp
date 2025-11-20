@@ -8,16 +8,14 @@ bool isHolding = false;
 class $modify(PlayerObject) {
   void jumpscare() {
     // Check if randomizing is enabled
-    bool randomizeOption = Mod::get()->getSettingValue<bool>("randomize-jumpscare");
-    double randomizeOptionChance = Mod::get()->getSettingValue<double>("randomize-jumpscare-chance");
+    bool randomizeOption = true;
+    double randomizeOptionChance = 1.0;
 
     // if randomize is turned on then there is certain percent chance of the jumpscare
     float randPercent = (static_cast<float>(rand()) / static_cast<float>(RAND_MAX)) * 100;
 
     if (randomizeOption && (randPercent > randomizeOptionChance))
       return;
-
-    FMODAudioEngine::sharedEngine()->playEffect("vine-boom.mp3"_spr);
 
     // If action is running stop it
     if (RobertTopala->getActionByTag(1)) {
