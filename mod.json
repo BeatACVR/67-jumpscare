@@ -9,32 +9,14 @@
 	"tags": [
 		"joke"
 	],
-	"id": "n.67-jumpscare",
-	"name": "67 Jumpscare",
-	"version": "v1.6.7",
-	"developer": "n",
-	"description": "67 yourself everytime you jump!",
-	"repository": "https://github.com/BeatACVR/67-jumpscare",
+	"id": "breast.charlie-kirk",
+	"name": "Charlie Kirk",
+	"version": "v1.0.0",
+	"developer": "Breast",
+	"description": "kirk yourself everytime you jump!",
 	"resources": {
 		"files": [
-			"resources/*.mp3",
 			"resources/*.png"
 		]
-	},
-	"settings": {
-		"randomize-jumpscare": {
-			"name": "Randomize Jumpscare",
-			"description": "Jumpscares happen with a 1% chance instead of a 100% chance when enabled.",
-			"type": "bool",
-			"default": false
-		},
-		"randomize-jumpscare-chance": {
-			"name": "Jumpscare Chance",
-			"description": "Change jumpscare chance. (Set to -1 to fully disable.)",
-			"type": "float",
-			"default": 1,
-			"min": -1,
-			"max": 100
-		}
 	}
 }
